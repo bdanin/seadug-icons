@@ -1,0 +1,4 @@
+name: seadug-icons
+recipe: drupal8
+config:
+  webroot: docroot
