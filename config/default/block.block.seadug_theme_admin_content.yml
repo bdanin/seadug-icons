@@ -1,0 +1,22 @@
+uuid: 06cf815c-a94d-492c-a356-d5f8152b9090
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seadug_theme_admin
+_core:
+  default_config_hash: 80N66GdzEvwqi1m-_GZ-ulkk8AJG9beoXcZ4-pMVKjI
+id: seadug_theme_admin_content
+theme: seadug_theme_admin
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

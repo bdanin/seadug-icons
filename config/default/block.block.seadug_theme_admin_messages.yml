@@ -1,0 +1,22 @@
+uuid: ad79492b-a5b6-481d-b4ef-30eadef066ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seadug_theme_admin
+_core:
+  default_config_hash: YqKTtloWJ8FjLtfVNfrHaK6kVgxT67lC1cJ3j6i6WLo
+id: seadug_theme_admin_messages
+theme: seadug_theme_admin
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

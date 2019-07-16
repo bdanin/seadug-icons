@@ -1,0 +1,22 @@
+uuid: c0f721ed-311b-4a03-884a-b38bb028f2bd
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seadug_theme_admin
+_core:
+  default_config_hash: 8by5KRsb7ZpmjHj0ms1d7xAG_xH54AWsOX6spDLJ59U
+id: seadug_theme_admin_breadcrumbs
+theme: seadug_theme_admin
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 05866937-1525-48be-8a27-567a494e6d20
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seadug_theme_admin
+_core:
+  default_config_hash: ik4PTMlBD0MWansnSMpSXq5SUlWRJ1IVVt6C7AIbQmc
+id: seadug_theme_admin_local_actions
+theme: seadug_theme_admin
+region: content
+weight: -10
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

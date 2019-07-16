@@ -1,0 +1,22 @@
+uuid: 6eab3a6d-293c-419f-be8f-89b63fd3ffce
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - seadug_theme_admin
+_core:
+  default_config_hash: 862sIulDdHmF0vBU1s2j2_a_CwkxursrL0pIrMDzzOg
+id: seadug_theme_admin_login
+theme: seadug_theme_admin
+region: content
+weight: 10
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  provider: user
+  label_display: visible
+visibility: {  }

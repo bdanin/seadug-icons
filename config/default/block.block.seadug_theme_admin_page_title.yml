@@ -1,0 +1,20 @@
+uuid: 4cd7dcb6-d2c4-408b-8bc7-ae6b6a14c479
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seadug_theme_admin
+_core:
+  default_config_hash: Z3nlZUh2mSJP3apMrJWt-duS-aLyP79rcfu_0wpPmDs
+id: seadug_theme_admin_page_title
+theme: seadug_theme_admin
+region: header
+weight: -30
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }
