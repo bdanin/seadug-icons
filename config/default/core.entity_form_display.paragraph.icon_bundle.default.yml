@@ -14,7 +14,7 @@ bundle: icon_bundle
 mode: default
 content:
   field_icon_reference:
-    weight: 0
+    weight: 1
     settings:
       match_operator: CONTAINS
       size: 60
@@ -23,7 +23,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_inline_css:
-    weight: 1
+    weight: 0
     settings:
       rows: 5
       placeholder: ''
