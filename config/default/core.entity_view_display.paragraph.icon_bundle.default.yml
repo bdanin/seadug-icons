@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.icon_bundle.field_icon_reference
+    - field.field.paragraph.icon_bundle.field_inline_css
     - paragraphs.paragraphs_type.icon_bundle
+  module:
+    - text
 id: paragraph.icon_bundle.default
 targetEntityType: paragraph
 bundle: icon_bundle
@@ -18,5 +21,12 @@ content:
       view_mode: default
       link: false
     third_party_settings: {  }
+    region: content
+  field_inline_css:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
     region: content
 hidden: {  }

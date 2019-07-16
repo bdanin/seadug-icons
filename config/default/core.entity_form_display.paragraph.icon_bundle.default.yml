@@ -4,7 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.paragraph.icon_bundle.field_icon_reference
+    - field.field.paragraph.icon_bundle.field_inline_css
     - paragraphs.paragraphs_type.icon_bundle
+  module:
+    - text
 id: paragraph.icon_bundle.default
 targetEntityType: paragraph
 bundle: icon_bundle
@@ -18,6 +21,14 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: entity_reference_autocomplete
+    region: content
+  field_inline_css:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
     region: content
 hidden:
   created: true

@@ -1,0 +1,21 @@
+uuid: 2347cc64-fb3d-4350-a82c-b74eea532e23
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_inline_css
+    - paragraphs.paragraphs_type.icon_bundle
+  module:
+    - text
+id: paragraph.icon_bundle.field_inline_css
+field_name: field_inline_css
+entity_type: paragraph
+bundle: icon_bundle
+label: 'Inline CSS'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
