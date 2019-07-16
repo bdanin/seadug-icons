@@ -3,10 +3,20 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.icon_bundle.field_icon_reference
     - paragraphs.paragraphs_type.icon_bundle
 id: paragraph.icon_bundle.default
 targetEntityType: paragraph
 bundle: icon_bundle
 mode: default
-content: {  }
+content:
+  field_icon_reference:
+    type: entity_reference_entity_view
+    weight: 0
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
 hidden: {  }

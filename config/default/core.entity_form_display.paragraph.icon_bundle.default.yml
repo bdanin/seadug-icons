@@ -3,12 +3,22 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.paragraph.icon_bundle.field_icon_reference
     - paragraphs.paragraphs_type.icon_bundle
 id: paragraph.icon_bundle.default
 targetEntityType: paragraph
 bundle: icon_bundle
 mode: default
-content: {  }
+content:
+  field_icon_reference:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
 hidden:
   created: true
   status: true
