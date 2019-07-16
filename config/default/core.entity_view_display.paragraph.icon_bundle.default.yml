@@ -1,0 +1,12 @@
+uuid: 1bd74d3b-6971-4d84-a297-f15f51bd7db5
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.icon_bundle
+id: paragraph.icon_bundle.default
+targetEntityType: paragraph
+bundle: icon_bundle
+mode: default
+content: {  }
+hidden: {  }
