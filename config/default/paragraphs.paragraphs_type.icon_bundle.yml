@@ -1,0 +1,9 @@
+uuid: be3c85be-0864-4c06-a012-7feefbfdd993
+langcode: en
+status: true
+dependencies: {  }
+id: icon_bundle
+label: 'Icon Bundle'
+icon_uuid: null
+description: 'Icon reference with theme authoring'
+behavior_plugins: {  }
